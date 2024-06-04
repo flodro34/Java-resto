@@ -1,0 +1,21 @@
+package org.studi.restaurantreservation.service;
+
+
+import org.studi.restaurantreservation.pojo.Plat;
+
+import java.util.List;
+
+public interface PlatService {
+
+    List<Plat> getAllPlats();
+
+    void updatePlatById(Long id, Plat plat);
+
+    void deletePlatById(Long id) ;
+
+    void createPlat(Plat plat) ;
+
+    Plat getPlatById(Long id);
+}
+
+
